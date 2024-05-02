@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #ffffff;
+    background-color: #d169df;
+}
+
+.main {
+    background-color: #d169df;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    display: flex;
+}
+
+.profile img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.personal-info,
+.education,
+.experience {
+    flex: 1;
+}
+
+h2 {
+    color: #000000;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
